@@ -71,6 +71,19 @@ Content-Type: application/json
 Delete a User
 DELETE /api/users/{id}
 
+Allowed Hosts
+"AllowedHosts": "*"
+The "AllowedHosts" setting specifies which hosts are allowed to connect to the application. In this configuration, any host is allowed. In a production environment, it's recommended to specify only the trusted hosts to enhance security.
+
+Connection Strings
+"ConnectionStrings": {
+  "WebAssessmentContext": "Server=PHYMAGE;Database=webLCY;User Id=testing;Password=LCY8899@;Encrypt=true;TrustServerCertificate=true;"
+}
+
+The "ConnectionStrings" section contains the connection string used to connect to the database. You can modify this section to specify the database server, name, credentials, and encryption settings based on your database setup.
+
+Remember to update the configuration in the appsettings.json file as needed to match your environment and database configuration.
+
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub Fork and Pull Request workflow.
 
