@@ -75,6 +75,7 @@ Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub Fork and Pull Request workflow.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is released under The Unlicense, which means it is free and open-source software with no restrictions. You can use, modify, and distribute it as you see fit, without any limitations or obligations.
+
 
 Feel free to customize this README further to provide more details about your project and how to use it with ID-based HttpPut and HttpDelete endpoints.
